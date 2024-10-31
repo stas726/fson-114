@@ -51,7 +51,7 @@ a {
     opacity: 0px;
 }
 
-.foto h3 {
+.foto_title {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -60,7 +60,7 @@ a {
     text-align: center;
 }
 
-.foto p {
+.foto_tecst {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
