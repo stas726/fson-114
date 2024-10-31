@@ -11,7 +11,7 @@ a {
     text-align: center;
 }
 
-.tecst h2 {
+.title {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -21,7 +21,7 @@ a {
     color: #2E2F42;
 }
 
-.tecst p {
+.tecst {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -67,4 +67,18 @@ a {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+}
+
+.foto {
+    background-color: #FFFFFF
+}
+
+.beginning_foto {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
