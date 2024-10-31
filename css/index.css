@@ -1,10 +1,11 @@
 .logo {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
@@ -22,6 +23,11 @@
     color: #2E2F42;
 }
 
+.navigation:hover,
+.navigation:focus {
+    background-color: #404BBF;
+}
+
 .address {
     font-family: Roboto;
     font-size: 16px;
@@ -30,6 +36,11 @@
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+}
+
+.address:hover,
+.address:focus {
+    background-color: #404BBF;
 }
 
 .section_one {
