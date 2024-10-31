@@ -13,7 +13,7 @@
     color: #2E2F42;
 }
 
-.navigation a {
+.navigation {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -23,8 +23,8 @@
     color: #2E2F42;
 }
 
-.navigation a:hover,
-.navigation a:focus {
+.navigation:hover,
+.navigation:focus {
     color: #404BBF;
 }
 
@@ -32,7 +32,7 @@
     font-style: normal
 }
 
-.address a {
+.mai_tel {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -42,8 +42,8 @@
     color: #434455;
 }
 
-.address a:hover,
-.address a:focus {
+.mai_tel:hover,
+.mai_tel:focus {
     color: #404BBF;
 }
 
