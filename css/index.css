@@ -31,24 +31,26 @@ a {
     color: #434455;
 }
 
-.nav-link {
+.nav-link h1 {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
 
 .element {
-    width: Hug (169px)px;
-    height: Hug (56px)px;
-    top: 428px;
-    left: 636px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: left;
+    background: #4d5ae5;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #404BBF;
 }
 
 .foto_title {
@@ -81,4 +83,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+}
+.section_3 {
+    background: #f4f4fd
+}
+.nav-link {
+    background: #2e2f42
 }
