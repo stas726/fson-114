@@ -13,7 +13,7 @@
     color: #2E2F42;
 }
 
-.navigation {
+.navigation a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -23,12 +23,16 @@
     color: #2E2F42;
 }
 
-.navigation:hover,
-.navigation:focus {
-    background-color: #404BBF;
+.navigation a:hover,
+.navigation a:focus {
+    color: #404BBF;
 }
 
 .address {
+    font-style: normal
+}
+
+.address a {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -38,9 +42,13 @@
     color: #434455;
 }
 
-.address:hover,
-.address:focus {
-    background-color: #404BBF;
+.address a:hover,
+.address a:focus {
+    color: #404BBF;
+}
+
+.header {
+    border-bottom: #e7e9fc
 }
 
 .section_one {
