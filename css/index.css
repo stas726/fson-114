@@ -31,7 +31,7 @@ a {
     color: #434455;
 }
 
-.nav-link h1 {
+.nav-link {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -41,13 +41,13 @@ a {
 }
 
 .element {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
-    background: #4d5ae5;
+    background-color: #4D5AE5;
     color: #ffffff;
     cursor: pointer;
     background-color: #404BBF;
@@ -84,9 +84,9 @@ a {
     text-align: center;
     text-transform: capitalize;
 }
-.section_3 {
+.section_three {
     background: #f4f4fd
 }
-.nav-link {
+.section_one {
     background: #2e2f42
 }
