@@ -1,13 +1,12 @@
 /*DOCTYPE*/
 
-html {
-    box-sizing: border-box;
+ul,
+ol {
+    list-style-type: none;
 }
 
-*,
-::after,
-::before {
-    box-sizing: inherit;
+a {
+    text-decoration: none;
 }
 
 body {
@@ -61,11 +60,21 @@ img {
     text-align: left;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-top: 25.5px;
+    margin-right: 76px;
+    padding: 24px 0 24px;
 }
 
 .dark {
     color: #2E2F42;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav_ul {
+    display: flex;
 }
 
 .navigation {
@@ -76,6 +85,8 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    margin-right: 40px;
+    padding: 24px 0 24px;
 }
 
 .navigation:hover,
@@ -83,16 +94,13 @@ img {
     color: #404BBF;
 }
 
-ul, ol {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 .address {
     font-style: normal;
+}
+
+.address_ul {
+    display: flex;
+    padding: 24px 0 24px;
 }
 
 .mai_tel {
@@ -103,6 +111,11 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    margin-right: 40px;
+}
+
+header div {
+    display: flex;
 }
 
 .mai_tel:hover,
@@ -112,14 +125,15 @@ a {
 
 .header {
     background: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 /*section 1*/
 
 .section_one {
     background: #2e2f42;
-    padding-top: 600px;
-    padding-bottom: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .nav-link {
@@ -128,7 +142,7 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     text-align: center;
 }
@@ -144,6 +158,11 @@ a {
     cursor: pointer;
     background-color: #4d5ae5;
     border: none;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .element:hover,
@@ -235,8 +254,21 @@ a {
 
 .footer {
     background: #2e2f42;
-    padding-top: 312px;
-    padding-bottom: 1440px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo_footer {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .light {
