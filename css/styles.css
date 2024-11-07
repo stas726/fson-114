@@ -1,5 +1,15 @@
 /*DOCTYPE*/
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
 body {
     font-family: "Raleway – 700", "Roboto – 400, 500, 700", sans-serif;
     font-optical-sizing: auto;
@@ -7,6 +17,37 @@ body {
     font-style: normal;
     background-color: #ffffff;
     color: #434455;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 /*header*/
@@ -20,6 +61,7 @@ body {
     text-align: left;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-top: 25.5px;
 }
 
 .dark {
@@ -76,6 +118,8 @@ a {
 
 .section_one {
     background: #2e2f42;
+    padding-top: 600px;
+    padding-bottom: 1440px;
 }
 
 .nav-link {
@@ -84,6 +128,8 @@ a {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    height: 120px;
     text-align: center;
 }
 
@@ -97,6 +143,7 @@ a {
     color: #ffffff;
     cursor: pointer;
     background-color: #4d5ae5;
+    border: none;
 }
 
 .element:hover,
@@ -114,6 +161,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .title {
@@ -124,6 +172,7 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .tecst {
@@ -134,12 +183,16 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    width: 264px;
+    height: 72px;
 }
 
 /*section 3*/
 
 .section_three {
     background: #f4f4fd;
+    padding-top: 732px;
+    padding-bottom: 1440px;
 }
 
 .beginning_foto {
@@ -150,6 +203,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .foto_title {
@@ -159,6 +213,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .foto_tecst {
@@ -174,10 +229,14 @@ a {
     background-color: #FFFFFF;
 }
 
+/*section 4*/
+
 /*footer*/
 
 .footer {
     background: #2e2f42;
+    padding-top: 312px;
+    padding-bottom: 1440px;
 }
 
 .light {
@@ -192,6 +251,8 @@ a {
     letter-spacing: 0.02em;
     text-align: left;
     color: #F4F4FD;
+    width: 264px;
+    height: 72px;
 }
 
 
