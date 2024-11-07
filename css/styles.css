@@ -75,6 +75,7 @@ img {
 
 .nav_ul {
     display: flex;
+    gap: 40px;
 }
 
 .navigation {
@@ -85,7 +86,6 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
-    margin-right: 40px;
     padding: 24px 0 24px;
 }
 
@@ -102,6 +102,7 @@ img {
 .address_ul {
     display: flex;
     padding: 24px 0 24px;
+    gap: 40px;
 }
 
 .mai_tel {
@@ -112,7 +113,6 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
-    margin-right: 40px;
 }
 
 header div {
@@ -125,7 +125,7 @@ header div {
 }
 
 .header {
-    background: #e61b1b;
+    background: #f10e0e;
     border-bottom: 1px solid #e7e9fc;
 }
 
