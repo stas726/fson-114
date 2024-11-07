@@ -87,6 +87,7 @@ img {
     text-align: left;
     color: #2E2F42;
     padding: 24px 0 24px;
+    gap: 40px;
 }
 
 .navigation:hover,
@@ -113,6 +114,7 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    gap: 40px;
 }
 
 header div {
@@ -125,7 +127,7 @@ header div {
 }
 
 .header {
-    background: #f10e0e;
+    background: #ffffff;
     border-bottom: 1px solid #e7e9fc;
 }
 
