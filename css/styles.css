@@ -349,12 +349,6 @@ header div {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.ellipso_container {
-    display: flex;
-    margin-left: 16px;  
-    margin-top: 8px; 
-}
-
 .ellipso_ul {
     display: flex;
     justify-content: center;
