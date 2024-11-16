@@ -71,6 +71,7 @@ img {
 .nav {
     display: flex;
     align-items: center;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation:after {
@@ -108,6 +109,7 @@ img {
     color: #2E2F42;
     padding: 24px 0 24px;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation:hover,
@@ -119,6 +121,7 @@ img {
 .address {
     font-style: normal;
     margin-left: auto;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address_ul {
@@ -136,6 +139,7 @@ img {
     text-align: left;
     color: #434455;
     gap: 40px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 header div {
@@ -149,7 +153,7 @@ header div {
 }
 
 .header {
-    background: #ffffff;
+    background: #aa0909;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -414,14 +418,14 @@ header div {
 .title_li:hover .overlay {
     transform: translateY(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section_four {
     padding-top: 120px;
     padding-bottom: 120px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .tecst_ul {
@@ -430,6 +434,7 @@ header div {
 }
 
 .title_li {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
 }
 
