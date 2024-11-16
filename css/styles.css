@@ -497,8 +497,8 @@ header div {
 }
 
 .footer_ellipso_li {
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 40px;
 }
 
 .svg_footer {
@@ -514,6 +514,8 @@ header div {
 
 .footer_icon_svg {
     fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 
 .svg_footer:focus,
