@@ -370,10 +370,19 @@ header div {
     border-radius: 50%;
 }
 
-.benefits_wrapper_s3:hover,
-.benefits_wrapper_s3:focus {
+.svg_foto {
+    background-color: #4d5ae5;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg_foto:focus,
+.svg_foto:hover {
     background-color: #31D0AA;
 }
+
+
 
 /*section 4*/
 
@@ -404,7 +413,6 @@ header div {
     letter-spacing: -0.02;
     padding: 40px 32px;
 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -421,6 +429,7 @@ header div {
     transition-property: 0s;
     transition-timing-function: ease;
     transition-delay: 0s;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .title_li:focus .overlay,
