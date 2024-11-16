@@ -156,7 +156,7 @@ header div {
 }
 
 .header {
-    background: #ffffff;
+    background: #d60f0f;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -510,6 +510,8 @@ header div {
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 24px;
+    height: 24px;
 }
 
 .footer_icon_svg {
