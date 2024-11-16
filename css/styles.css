@@ -342,17 +342,18 @@ header div {
 
 .foto {
     background-color: #FFFFFF;
-    width: calc((100% - 3 * 24px) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .ellipso_ul {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .ellipso_li {
@@ -360,29 +361,27 @@ header div {
     height: 40px;
 }
 
-.benefits_wrapper_s3 {
+.svg_foto {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: #4D5AE5;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 100%;
+    height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg_foto {
-    background-color: #4d5ae5;
-    cursor: pointer;
-    border-radius: 50%;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.icon_svg {
+    fill: #f4f4fd;
 }
 
 .svg_foto:focus,
 .svg_foto:hover {
     background-color: #31D0AA;
 }
-
-
 
 /*section 4*/
 
@@ -517,24 +516,37 @@ header div {
     width: 208px;
 }
 
-.ellipso_container_footer {
+.footer_ellipso_ul {
     display: flex;
-    margin-top: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }
 
-.benefits_wrapper_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer_ellipso_li {
     width: 40px;
     height: 40px;
-    background-color: #4D5AE5;
-    border-radius: 50%;
-    margin-right: 16px;
 }
 
-.benefits_wrapper_footer:hover,
-.benefits_wrapper_footer:focus {
+.svg_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    width: 100%;
+    height: 100%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer_icon_svg {
+    fill: #f4f4fd;
+}
+
+.svg_footer:focus,
+.svg_footer:hover {
     background-color: #31D0AA;
 }
 
