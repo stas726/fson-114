@@ -73,12 +73,29 @@ img {
     align-items: center;
 }
 
+.navigation:after {
+    content: '';
+    position: absolute;        
+    bottom: -1px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+}
+
+.navigation:focus::after,
+.navigation:hover::after {
+    background-color: rgba(64, 75, 191, 1);
+}
+
 .nav_ul {
     display: flex;
     gap: 40px;
 }
 
 .navigation {
+    position: relative;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -134,9 +151,16 @@ header div {
 /*section 1*/
 
 .section_one {
+    max-width: 1440;
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-color: rgba(46, 47, 66, 0.7);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 .nav-link {
@@ -149,6 +173,8 @@ header div {
     height: 120px;
     margin-bottom: 48px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .element {
@@ -167,6 +193,8 @@ header div {
     height: 56px;
     border-radius: 4px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .element:hover,
@@ -175,6 +203,16 @@ header div {
 }
 
 /*section 2*/
+
+.benefits_wrapper_s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    border: 1px solid #8E8F99
+}
 
 .section_two {
     padding: 120px 0 120px;
@@ -222,6 +260,7 @@ header div {
     text-align: left;
     color: #2E2F42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .tecst {
@@ -233,7 +272,6 @@ header div {
     text-align: left;
     color: #434455;
     width: 264px;
-    height: 72px;
 }
 
 /*section 3*/
@@ -289,7 +327,76 @@ header div {
     border-radius: 0px 0px 4px 4px;
 }
 
+.ellipso_container {
+    display: flex;
+    margin-left: 16px;  
+    margin-top: 8px; 
+}
+
+.benefits_wrapper_s3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
+.benefits_wrapper_s3:not(:last-of-type) {
+    margin-right: 24px;
+}
+
+.benefits_wrapper_s3:hover,
+.benefits_wrapper_s3:focus {
+    background-color: #31D0AA;
+}
+
 /*section 4*/
+
+.div_two {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    transform: translateY(100%);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+       
+    display: flex;
+    column-gap: 24px;
+    row-gap: 40px;
+    padding: 26px;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1,5;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    background: #4D5AE5;
+    color: #F4F4FD;
+
+    transform-origin: transform;
+    transition-property: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.title_li:hover .overlay {
+    transform: translateY(0);
+}
 
 .section_four {
     padding-top: 120px;
@@ -299,12 +406,10 @@ header div {
 .tecst_ul {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
 }
 
 .title_li {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
 }
 
 .div {
@@ -347,7 +452,40 @@ header div {
     text-align: left;
     color: #F4F4FD;
     width: 264px;
-    height: 72px;
+}
+
+.made-wrapper {
+    display: flex;
+    gap: 120px;
+}
+
+.footer_div {
+    width: 264px;
+}
+
+.footer_div_two {
+    width: 208px;
+}
+
+.ellipso_container_footer {
+    display: flex;
+    margin-top: 16px;
+}
+
+.benefits_wrapper_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.benefits_wrapper_footer:hover,
+.benefits_wrapper_footer:focus {
+    background-color: #31D0AA;
 }
 
 
