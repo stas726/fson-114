@@ -211,14 +211,16 @@ header div {
 
 /*section 2*/
 
-.benefits_wrapper_s2 {
+.benefits_wrapper_s_two {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 264px;
     height: 112px;
     background-color: #F4F4FD;
-    border: 1px solid #8E8F99
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .section_two {
