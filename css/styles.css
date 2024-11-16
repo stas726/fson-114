@@ -84,6 +84,8 @@ img {
     height: 4px;
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .navigation:focus::after,
@@ -153,7 +155,7 @@ header div {
 }
 
 .header {
-    background: #aa0909;
+    background: #ffffff;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -418,9 +420,6 @@ header div {
 .title_li:hover .overlay {
     transform: translateY(0);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .section_four {
@@ -431,11 +430,17 @@ header div {
 .tecst_ul {
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .title_li {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 48px) / 3);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .div {
