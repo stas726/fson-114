@@ -467,10 +467,10 @@ header div {
 }
 
 .footer_tecst {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
+    color: #FFFFFF;
     letter-spacing: 0.02em;
     width: 264px;
 }
@@ -497,8 +497,8 @@ header div {
 }
 
 .footer_ellipso_li {
-    width: 40px;
-    height: 40px;
+    width: 24px;
+    height: 24px;
 }
 
 .svg_footer {
@@ -518,7 +518,7 @@ header div {
 
 .svg_footer:focus,
 .svg_footer:hover {
-    background-color: #404bbf;;
+    background-color: #31d0aa;;
 }
 
 
