@@ -380,7 +380,7 @@ header div {
 
 .svg_foto:focus,
 .svg_foto:hover {
-    background-color: #31D0AA;
+    background-color: #404bbf;;
 }
 
 /*section 4*/
@@ -401,6 +401,7 @@ header div {
     height: 100%;
     transform: translateY(100%);
     padding: 40px 32px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -515,7 +516,7 @@ header div {
 
 .svg_footer:focus,
 .svg_footer:hover {
-    background-color: #31D0AA;
+    background-color: #404bbf;;
 }
 
 
