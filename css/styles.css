@@ -85,7 +85,6 @@ img {
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #404bbf;
-    background-color: #404bbf;
 }
 
 .navigation:focus::after,
@@ -112,7 +111,6 @@ img {
     padding: 24px 0 24px;
     gap: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: #404bbf;
 }
 
 .navigation:hover,
@@ -411,6 +409,13 @@ header div {
     transform: translateY(0);
 }
 
+.title_li:focus,
+.title_li:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+    
+
 .section_four {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -426,8 +431,6 @@ header div {
 .title_li {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .div {
