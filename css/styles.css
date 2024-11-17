@@ -87,6 +87,17 @@ img {
     color: #404bbf;
 }
 
+.current::after {
+    position: absolute;
+    content: '';
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    bottom: -1px;
+    left: 0;
+    background-color: #404bbf;
+}
+
 .navigation:focus::after,
 .navigation:hover::after {
     background-color: #404bbf;
@@ -97,6 +108,10 @@ img {
 .nav_ul {
     display: flex;
     gap: 40px;
+}
+
+.nav_ul .current {
+    color: #404bbf;
 }
 
 .navigation {
