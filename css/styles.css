@@ -631,8 +631,7 @@ header div {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    opacity: 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: opacity, visibility;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
@@ -657,7 +656,7 @@ header div {
     border-radius: 4px;
     opacity: 0px;
     background: #FCFCFC;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2)
 }
 
@@ -678,7 +677,6 @@ header div {
     cursor: pointer;
     transform: translateX(-50) translateY(-50) scale(0.3);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: border-color, backgraund-color;
 }
 
 
@@ -690,12 +688,12 @@ header div {
 }
 
 .modal-btn-icon {
-    transition: 300ms, ease-in;
     transition: border-color, stroke;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover + .modal-btn-icon,
-.modal-btn:focus + .modal-btn-icon {
+.modal-btn:focus .modal-btn-icon,
+.modal-btn:hover .modal-btn-icon {
     fill: #ffffff;
 }
 
@@ -711,7 +709,7 @@ header div {
 }
 
 .modal-form-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-form-label {
@@ -739,6 +737,7 @@ header div {
     outline: transparent;
     background-color: transparent;
     border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:focus {
@@ -754,7 +753,7 @@ header div {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-input:focus+.modal-from-icon {
+.modal-form-input:focus + .modal-from-icon {
     fill: #4d5ae5;
 }
 
@@ -785,9 +784,8 @@ header div {
 }
 
 .checkbox {
-    margin-top: 18px;
+    margin-top: 16px;
     margin-bottom: 24px;
-    margin-bottom: 16px
 }
 
 .modal-form-agremeent-tecst {
