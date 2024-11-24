@@ -710,6 +710,10 @@ header div {
     margin-bottom: 8px;
 }
 
+.margin {
+    margin-bottom: 16px;
+}
+
 .modal-form-label {
     display: block;
     margin-bottom: 4px;
