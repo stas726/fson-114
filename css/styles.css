@@ -585,9 +585,13 @@ header div {
 .footer_modal-from-icon {
     top: 50%;
     left: 50%;
+    margin-left: 16px;
 }
 
 .footer_element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
