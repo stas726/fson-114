@@ -601,6 +601,7 @@ header div {
     cursor: pointer;
     text-align: left;
     background-color: #4d5ae5;
+    border: none;
     padding: 8px 24px;
     min-width: 165px;
     height: 40px;
