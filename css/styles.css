@@ -1,3 +1,7 @@
+.hade {
+    display: none;
+}
+
 /*DOCTYPE*/
 
 ul,
@@ -43,10 +47,28 @@ img {
     height: auto;
 }
 
+/* modile screen */
 .container {
-    width: 1158px;
-    padding: 0 15px;
+    max-width: 320px;
+    padding: 0 16px;
     margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* tablet screen */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 736px;
+    }
+}
+
+/* desktop screen */
+@media only screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding: 0 15px;
+    }
 }
 
 /*header*/
@@ -179,30 +201,63 @@ header div {
 /*section 1*/
 
 .section_one {
-    max-width: 1440px;
-    background: #2e2f42;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    min-width: 320px;
+    max-width: 320px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background: #2e2f42; 
     background-color: rgba(46, 47, 66, 0.7);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+@media only screen and (min-width: 768px) {
+    .section_one {
+        max-width: 736px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+    
+}
+@media only screen and (min-width: 1158px) {
+    .section_one {
+        max-width: 1440px;
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
 }
 
 .nav-link {
-    font-family: Roboto;
-    font-size: 56px;
+    max-width: 320px;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
-    max-width: 496px;
-    height: 120px;
-    margin-bottom: 48px;
+    height: 160px;
+    max-width: 216px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 72px;
+}
+@media only screen and (min-width: 768px) {
+    .nav-link {
+        max-width: 736px;
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+        height: 120px;
+        margin-bottom: 36px;
+    }
+}
+@media only screen and (min-width: 1158px) {
+    .nav-link {  
+    margin-bottom: 48px;
+    }
 }
 
 .element {
@@ -695,7 +750,6 @@ header div {
 
 .modal-caption {
     margin-bottom: 16px;
-    margin-top: 24px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
