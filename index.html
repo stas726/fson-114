@@ -40,8 +40,8 @@ for Your Business"
   </head>
   <body>
     <!-- header -->
-    <header class="header hade">
-      <div class="container">
+    <header class="header">
+      <div class="container container_header">
         <nav class="nav">
           <a href="./index.html" class="logo"
             >Web<span class="dark">Studio</span></a
@@ -73,12 +73,88 @@ for Your Business"
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-Group"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- modal window  -->
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-container container">
+          <button type="button" class="mobile-menu-btn">
+            <svg class="icon-close-black" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-18dp"></use>
+            </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="mobile-list">
+              <li class="mobile-item">Studio</li>
+              <li class="mobile-item">Portfolio</li>
+              <li class="mobile-item">Contacts</li>
+            </ul>
+          </nav>
+          <address class="address-mobile">
+            <ul class="address-mobile-list">
+              <li class="address-mobile-list-item">
+                <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com
+                </a>
+              </li>
+              <li class="address-mobile-list-item">
+                <a class="mobile-contacts-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+          <ul class="mobile-list-svg">
+            <li class="mobile-item-svg">
+              <svg
+                class="mobile-icon-instagram svg-ourteam-mobile"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </li>
+            <li class="mobile-item-svg">
+              <svg
+                class="mobile-icon-twitter svg-ourteam-mobile"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </li>
+            <li class="mobile-item-svg">
+              <svg
+                class="mobile-icon-facebook svg-ourteam-mobile"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </li>
+            <li class="mobile-item-svg">
+              <svg
+                class="mobile-icon-linkedin svg-ourteam-mobile"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <!-- main -->
     <main>
       <!-- section 1 -->
-      <section id="Studi" class="section_one hade">
+      <section id="Studi" class="section_one">
         <div class="container">
           <h1 class="nav-link">Effective Solutions for Your Business</h1>
           <button type="button" class="element">Order Service</button>
@@ -145,8 +221,8 @@ for Your Business"
         </div>
       </section>
       <!-- section 3 -->
-      <section id="Contact" class="section_three hade">
-        <div class="container">
+      <section id="Contact" class="section_three">
+        <div class="container our_team_container">
           <h2 class="beginning_foto">Our Team</h2>
 
           <ul class="foto_ul">
@@ -392,7 +468,7 @@ for Your Business"
         </div>
       </section>
       <!-- section 4 -->
-      <section class="section_four hade">
+      <section class="section_four">
         <div class="container">
           <h2 class="beginning">Our Portfolio</h2>
 
@@ -516,8 +592,8 @@ for Your Business"
       </section>
     </main>
     <!-- footer -->
-    <footer class="footer hade">
-      <div class="container">
+    <footer class="footer">
+      <div class="container footer-container">
         <div class="footer_div">
           <a href="./index.html" class="logo_footer"
             >Web<span class="light">Studio</span></a
@@ -529,7 +605,7 @@ for Your Business"
         </div>
 
         <div class="footer_div_two">
-          <p class="footer_tecst">Social media</p>
+          <p class="footer_tecst_two">Social media</p>
           <ul class="footer_ellipso_ul">
             <li class="footer_ellipso_li">
               <a
@@ -578,7 +654,7 @@ for Your Business"
           </ul>
         </div>
         <div class="footer_div_fre">
-          <p class="footer_tecst">Subscribe</p>
+          <p class="footer_tecst_fre">Subscribe</p>
 
           <form class="footer_modal-form" name="review">
             <label class="modal-form-label" for="footer-user-email">
